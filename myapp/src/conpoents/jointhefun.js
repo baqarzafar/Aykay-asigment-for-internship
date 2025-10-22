@@ -14,7 +14,7 @@ export  default function Jointhefun(){
         <div style={{width:"100%" , display:"flex" , justifyContent:"center"}}>
 
 
-            <div   style={{backgroundColor:"#FF5349" , width:"90% "   , borderRadius:"40px 40px 0% 0%"  , height:"100%"  }}               >
+            <div   style={{backgroundColor:"#FF5349" , width:"90%"   , borderRadius:"40px 40px 0% 0%"  , height:"100%"  }}               >
 
                  <div  style={{display:"flex"}}            >
                        
