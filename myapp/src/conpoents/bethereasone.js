@@ -12,7 +12,7 @@ export default function BetheReasone(){
         <div  style={{display:"flex" , justifyContent:"center"}}  >
 
 
-            <div style={{backgroundColor:"red" , width:"100%" , height:"50%"}}>
+            <div style={{backgroundColor:"#FF5349" , width:"100%" , height:"50%"}}>
                  
                     <div style={{color:"white" , margin:"20px"}}>
 

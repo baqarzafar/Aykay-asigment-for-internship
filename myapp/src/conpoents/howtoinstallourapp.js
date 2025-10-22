@@ -18,7 +18,7 @@ export function Installour(){
     return (
 
 
-        <div     style={{display:"flex" , justifyContent:"center"}}        >
+        <div     style={{display:"flex" , justifyContent:"center" , width:"100%"}}        >
 
                   <div>
                  <div    style={{display:"flex" , justifyContent:"center"}}     >
@@ -42,12 +42,12 @@ export function Installour(){
 
                     </div>
                   <div>
-                      <div style={{display:"flex"}}>
+                      <div style={{display:"flex", flexFlow:"wrap" }}>
 
                         {content.map(( data   )=>{
 
                             return(
-                                 <div  style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid"  ,  width:"300px" , height:"100px" , padding:"20px"  , margin:"0% 0% 3% 0%"  }}>
+                                 <div  style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid"  ,  width:"200px" , height:"100px" , padding:"20px"  , margin:"0% 0% 3% 10px"  , boxshadow: "10px 10px lightblue"}}>
                                 <p  style={{fontWeight:"bold"}}>    {data.name}</p>
                                 <p>    {data.content}</p>
                                  </div>

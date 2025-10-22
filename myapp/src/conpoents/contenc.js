@@ -1,5 +1,8 @@
 import React from "react";
 import { Installour } from "./howtoinstallourapp";
+import Usersay from "./Userasay";
+import Jointhefun from "./jointhefun";
+import BetheReasone from "./bethereasone";
 
 
 
@@ -170,6 +173,9 @@ export function Content(){
 
 
 <Installour></Installour>
+<BetheReasone></BetheReasone>
+<Usersay></Usersay>
+<Jointhefun></Jointhefun>
 
 
                     </div>

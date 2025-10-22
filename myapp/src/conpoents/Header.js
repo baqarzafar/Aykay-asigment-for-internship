@@ -4,7 +4,7 @@ import React from "react";
 export  function  Header(){
     
 
-    const  styleFor = {backgroundColor:"red" , width:"100%" , height:"50%"}
+    const  styleFor = {backgroundColor:"#FF5349" , width:"100%" , height:"100%"}
 
 
     return (
@@ -13,11 +13,11 @@ export  function  Header(){
         <div   style={styleFor}               >
 
 
-               <div    style={ { display:"flex"  ,   justifyContent:"center"            } }>
+               <div    style={ { display:"flex"  ,   justifyContent:"center"} }>
 
-                   <div                    >
+                   <div>
 
-                    <h1   style={ { color:"white"     }   }                     >
+                    <h1   style={ { color:"white"}   }                     >
                         Mybindle
                     </h1>
 
