@@ -173,11 +173,11 @@ export function Content(){
 
 
 
-<Installour></Installour>
-<BetheReasone></BetheReasone>
-<EveryClick></EveryClick>
-<Usersay></Usersay>
-<Jointhefun></Jointhefun>
+{/* <Installour></Installour> */}
+{/* <BetheReasone></BetheReasone> */}
+{/* <EveryClick></EveryClick> */}
+{/* <Usersay></Usersay> */}
+{/* <Jointhefun></Jointhefun> */}
 
 
                     </div>

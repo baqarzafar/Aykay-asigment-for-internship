@@ -9,22 +9,21 @@ function App() {
 
 
 
-  const  styleFor = {backgroundColor:"red" , width:"100%" , height:"700px"}
+  
 
   return (
 
     <div>
-    <div    style={styleFor}  >
 
 
      <Header></Header>
-    </div>
-     <Content></Content> 
-     {/* <BetheReasone></BetheReasone> */}
+
+
+  
      
 
      
-                 {/* <Jointhefun></Jointhefun> */}
+                
 
     </div>
   );

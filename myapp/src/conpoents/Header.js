@@ -26,15 +26,15 @@ export  function  Header(){
             
 
 
-            <div  style={{color:"white"  , margin:"0% 5%  10%"                               }}            >
+            <div  style={{color:"white"  , margin:"0% 5%  10%"         , width:"100%"                      }}            >
 
 
-                <div                               >
-                <p    style={{fontSize:"50px" , fontStretch:"expanded" , fontWeight:"bold"}}                           > Stay  Connnected   </p>
-                <p        style={{fontSize:"50px" , fontStretch:"expanded" , fontWeight:"bold"}}                                                     > Stay  Social    </p>
-                <p        style={{fontSize:"50px" , fontStretch:"expanded" , fontWeight:"bold"}}                                                       > Stay  You!   </p>
+                <div         style={{width:"100%"}}                      >
+                <p    style={{fontSize:"100%" , fontStretch:"expanded" , fontWeight:"bold"}}> Stay  Connnected   </p>
+                <p        style={{fontSize:"100%" , fontStretch:"expanded" , fontWeight:"bold"}}                                                     > Stay  Social    </p>
+                <p        style={{fontSize:"100%" , fontStretch:"expanded" , fontWeight:"bold"}}                                                       > Stay  You!   </p>
 
-                <p   style={{width:"35%"}}>A place where  where the friend grow  communities  thrive  and moments turns 
+                <p   style={{width:"20%"}}>A place where  where the friend grow  communities  thrive  and moments turns 
                    into  unforgettable experiences Whether   you'r looking to reconnnect with 
                    old friends build new relationships or share  matters most to you 
                    Mybindle is your home on the internet .
