@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css"
-
+import icon1 from "./icons/icon1.png"
+import icon2 from "./icons/icon2.png"
 
 
 export  default function Jointhefun(){
@@ -14,9 +15,9 @@ export  default function Jointhefun(){
         <div      style={{backgroundColor:"#FF5349" , width:"90%"   , borderRadius:"40px 40px 0% 0%" , padding:"2%"   }} >
 
 
-            <div                  >
-
-                 <div  style={{display:"flex"}}            >
+            
+                   <div  style={{display:"flex"}}      >
+                 <div>
                        
 
 
@@ -46,27 +47,24 @@ export  default function Jointhefun(){
 
 
 
-                      <div   style={{display:"flex"}} >
-                         
-                         <image></image>
-                         <image></image>
-
-                      </div>
+                  
                       
                       
                       
                        </div>
 
 
-                       <div   className="this will be for img"                             >     
-                              <img>
+                       <div   style={{width:"30%" , display:"flex" , justifyContent:"space-beteen"}}  >     
+                              <img style={{width:"40%"}} src={icon1}>
                               </img>
-                              <img>
+                              <img  style={{width:"40%"}}            src={icon2}>
                               </img>
+                             
                        </div>
                  </div>
+                 </div>
 
-            </div>
+       
         </div>
 </div>
     )

@@ -15,13 +15,16 @@ export  function  Header(){
 
                <div    style={ { display:"flex"  ,   justifyContent:"center"} }>
 
-                   <div>
+                   {/* <div>
 
                     <h1   style={ { color:"white"}   }                     >
                         Mybindle
                     </h1>
 
-                   </div>
+                   </div> */}
+               
+               
+               
                </div>
             
 

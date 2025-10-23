@@ -59,7 +59,7 @@ export function Content(){
                                
                            
                                
-                               <div  style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid"  ,  width:"300px" , height:"100px" , padding:"20px"  , margin:"0% 0% 3% 0%"  }} >
+                               <div  className="boxshadow"  style={{backgroundColor:"#F8F7F7"  ,  width:"300px" , height:"100px" , padding:"20px"  , margin:"0% 0% 3% 0%"  }} >
                                 
                                 
                                 <div><p       style={{ fontStretch:"expanded" , fontWeight:"bold" , color:"blue"}}                                 >Seamless Connections</p>
@@ -91,7 +91,7 @@ export function Content(){
 
 
                          
-                             <div   style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid"  ,  width:"300px", height:"100px" , padding:"20px"     }}        >
+                             <div  className="boxshadow" style={{backgroundColor:"#F8F7F7" ,  width:"300px", height:"100px" , padding:"20px"     }}        >
                                   
                                 <div>
                                       <p      style={{ fontStretch:"expanded" , fontWeight:"bold" , color:"blue"}}                   >Share Your Story</p>
@@ -106,7 +106,7 @@ export function Content(){
 
 
 
-                             <div  style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid"  ,  width:"300px"  , height:"100px", padding:"20px"    }}        >
+                             <div className="boxshadow"  style={{backgroundColor:"#F8F7F7" ,  width:"300px"  , height:"100px", padding:"20px"    }}        >
                                <div>   <p     style={{ fontStretch:"expanded" , fontWeight:"bold" , color:"blue"}}      >Real Time Chat</p></div>
                                  <div>
                                       <p>
@@ -116,7 +116,7 @@ export function Content(){
                              </div>
 
 
-                             <div   style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid" ,  width:"300px" , height:"100px", padding:"20px"      }}    >
+                             <div  className="boxshadow"  style={{backgroundColor:"#F8F7F7"  ,  width:"300px" , height:"100px", padding:"20px"      }}    >
                          <div>
                                      <p           style={{ fontStretch:"expanded" , fontWeight:"bold" , color:"blue"}}         >Privacy First</p>
                          </div>
@@ -129,7 +129,7 @@ export function Content(){
 
 
 
-                             <div   style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid"  ,  width:"300px", height:"100px" , padding:"20px"     }}      >
+                             <div className="boxshadow"  style={{backgroundColor:"#F8F7F7"   ,  width:"300px", height:"100px" , padding:"20px"     }}      >
                                  <div>
                                      <p       style={{ fontStretch:"expanded" , fontWeight:"bold" , color:"blue"}}                           >Discover & Explore</p>
                                  </div>
@@ -146,7 +146,7 @@ export function Content(){
 
 
 
-                             <div    style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid" , height:"100px" ,  width:"300px", padding:"20px"      }}         >
+                             <div className="boxshadow"    style={{backgroundColor:"#F8F7F7" , height:"100px" ,  width:"300px", padding:"20px"      }}         >
                            
                            
                            <div>
