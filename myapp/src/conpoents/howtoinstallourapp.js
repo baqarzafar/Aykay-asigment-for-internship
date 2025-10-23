@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css"
 
 export function Installour(){
 
@@ -47,7 +48,7 @@ export function Installour(){
                         {content.map(( data   )=>{
 
                             return(
-                                 <div  style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid"  ,  width:"200px" , height:"100px" , padding:"20px"  , margin:"0% 0% 3% 10px"  , boxshadow: "10px 10px lightblue"}}>
+                                 <div  className="boxshadow" style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   ,  width:"200px" , height:"100px" , padding:"20px"  , margin:"0% 0% 3% 10px"  , boxshadow: "10px 10px lightblue"}}>
                                 <p  style={{fontWeight:"bold"}}>    {data.name}</p>
                                 <p>    {data.content}</p>
                                  </div>

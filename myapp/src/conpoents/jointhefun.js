@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./styles.css"
 
 
 
@@ -9,12 +9,12 @@ export  default function Jointhefun(){
 
 
     return(
-<div                    >
+<div         style={{width:"100%" , display:"flex" , justifyContent:"center " , color:"white"}}           >
     
-        <div style={{width:"100%" , display:"flex" , justifyContent:"center"}}>
+        <div      style={{backgroundColor:"#FF5349" , width:"90%"   , borderRadius:"40px 40px 0% 0%" , padding:"2%"   }} >
 
 
-            <div   style={{backgroundColor:"#FF5349" , width:"90%"   , borderRadius:"40px 40px 0% 0%"  , height:"100%"  }}               >
+            <div                  >
 
                  <div  style={{display:"flex"}}            >
                        
@@ -22,10 +22,10 @@ export  default function Jointhefun(){
 
                        <div>
 
-                        <div>
-                            <p>Join the Fun = Download</p>
+                        <div   style={{fontSize:"3vh" , fontStretch:"expanded" , fontWeight:"bold"}}             >
+                            <p>Join the Fun-Download</p>
                         </div>
-                        <div>
+                        <div  style={{fontSize:"3vh" , fontStretch:"expanded" , fontWeight:"bold"}}                            >
                             <p>MyBindle Now !</p>
                         </div>
                             

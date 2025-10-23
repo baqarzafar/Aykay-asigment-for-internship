@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./styles.css"
 
 export default function  EveryClick(){
 
@@ -20,26 +20,37 @@ export default function  EveryClick(){
 
     return(
 
-        <div  style={{display:"flex" , justifyContent :"center" }}  >
+        <div  style={{display:"flex" , justifyContent :"center", marginTop:"10%"}}  >
 
 
-  <div       >
+  <div style={{display:"flex"}} >
     
-    <div></div>
     <div>
-        <div><p>Where Every Click</p></div>
-        <div><p>Sparks  a  Connection</p></div>
+
+
+        <h1>Here will item be item</h1>
+    </div>
+    
+      
+
+      <div>
+        
+    <div style={{fontSize:"5vh" , fontStretch:"expanded" , fontWeight:"bold" , width:"55%"}}                          >
+          Where Every Click Sparks a Connection !
+    
     </div>
 
 <div>
 
 
-<p>A small act of kindness today can create a lifetime of impact for someone in itself Give from the heart and change a life !</p>
+<div   style={{width:"40%" , fontSize:"small"}}   >
+    <p>A small act of kindness today can create a lifetime of impact for someone in itself Give from the heart and change a life !</p>
+</div>
 
 {array.map((data)=>{
 
     return(
-        <div >
+        <div  className="boxshadow"   style={{ width:"40%" , padding:"2%" , margin:"1%"}}         >
 
             <p>{data.name}</p>                   
             <p>{data.text}</p>                   
@@ -52,6 +63,7 @@ export default function  EveryClick(){
 
 
 </div>
+      </div>
     </div>            
         </div>
     )

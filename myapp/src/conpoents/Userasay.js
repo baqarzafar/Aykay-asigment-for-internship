@@ -1,5 +1,6 @@
 
-
+import React from "react"
+import "./styles.css"
 export     default  function Usersay(){
             
 
@@ -53,24 +54,24 @@ export     default  function Usersay(){
     ]
 
 return(
-    <div  style={{display:"flex" , justifyContent:"center"}}>
+    <div  style={{display:"flex" , justifyContent:"center"  , width:"100%"}}>
            
-           <div >
+           <div style={{width:"80%"}} >
 
             <div style={{display:"flex" , justifyContent:"center"}}>
                    
-                <p    style={{fontSize:"50px" , fontStretch:"expanded" , fontWeight:"bold"}} >What Our Users Say </p>
+                <h1   style={{fontSize:"5vh" , fontStretch:"expanded" , fontWeight:"bold"}} >What Our Users Say </h1>
 
             </div>
 
 
 
-                      <div style={{display:"flex", flexFlow:"wrap" , width:"800px"}}>
+                      <div style={{display:"flex", flexFlow:"wrap" , width:"100%"}}>
                  {array.map((data)=>{
 
 
                             return(
-                                <div  style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   , borderStyle:"solid"  ,  width:"200px" , height:"200px" , padding:"20px"  , margin:"0% 0% 3% 10px"  , boxshadow: "10px 10px lightblue"}}>
+                                <div className="boxshadow"  style={{backgroundColor:"#F8F7F7"  ,  width:"30%" ,padding:"1%"  , margin:"0% 0% 3% 10px"  }}>
                                     <span>Rating</span>
                                <div>     <text>{data.comments}</text></div>
 
@@ -88,7 +89,7 @@ return(
             </div>
 
             <div style={{display:"flex" , justifyContent:"center"}}>
-                <button style={{backgroundColor:"white" , color:"#FF5349" ,width:"20%", height:"40px" , borderRadius:"10px"           }}                    >See more</button>
+                <button className="boxshadow" style={{backgroundColor:"white" , color:"#FF5349" ,width:"20%", height:"40px" , borderRadius:"10px"   , border:"none"        }}                    >See more</button>
             </div>
 
            </div>

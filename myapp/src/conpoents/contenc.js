@@ -4,7 +4,7 @@ import Usersay from "./Userasay";
 import Jointhefun from "./jointhefun";
 import BetheReasone from "./bethereasone";
 import EveryClick from "./everyClink";
-
+import "./styles.css"
 
 
 export function Content(){
@@ -173,11 +173,6 @@ export function Content(){
 
 
 
-{/* <Installour></Installour> */}
-{/* <BetheReasone></BetheReasone> */}
-{/* <EveryClick></EveryClick> */}
-{/* <Usersay></Usersay> */}
-{/* <Jointhefun></Jointhefun> */}
 
 
                     </div>
