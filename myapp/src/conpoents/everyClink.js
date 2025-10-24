@@ -36,7 +36,7 @@ export default function  EveryClick(){
 
       <div>
         
-    <div style={{fontSize:"5vh" , fontStretch:"expanded" , fontWeight:"bold" , width:"55%"}}                          >
+    <div style={{fontSize:"2rem" , fontStretch:"expanded" , fontWeight:"bold" , width:"55%"}}                          >
           Where Every Click Sparks a Connection !
     
     </div>
@@ -44,7 +44,7 @@ export default function  EveryClick(){
 <div>
 
 
-<div   style={{width:"40%" , fontSize:"small"}}   >
+<div   style={{width:"40%" , fontSize:"1rem"}}   >
     <p>A small act of kindness today can create a lifetime of impact for someone in itself Give from the heart and change a life !</p>
 </div>
 

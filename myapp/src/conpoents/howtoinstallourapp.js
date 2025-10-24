@@ -35,9 +35,10 @@ export function Installour(){
                         </p>
                     </div>
 
-                    <div style={{display:"flex" , justifyContent:"space-around" ,fontWeight:"bold"}}>
+                    <div style={{display:"flex" , justifyContent:"space-around" ,fontWeight:"bold" , fontSize:"4vh"}}>
 
-                     <p>01</p>
+                     <p style={{color:"red"}}>01</p>
+                
                      <p>02</p>
                      <p>03</p>
 
@@ -48,7 +49,7 @@ export function Installour(){
                         {content.map(( data   )=>{
 
                             return(
-                                 <div  className="boxshadow" style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   ,  width:"200px" , height:"100px" , padding:"20px"  , margin:"0% 0% 3% 10px"  , boxshadow: "10px 10px lightblue"}}>
+                                 <div  className="boxshadow" style={{backgroundColor:"#F8F7F7",   borderRadius:"5px" , borderColor:"black", borderWidth:"1px"   ,  width:"25vh"  , padding:"3%"  , margin:"0% 0% 3% 10px"  , boxshadow: "10px 10px lightblue"}}>
                                 <p  style={{fontWeight:"bold"}}>    {data.name}</p>
                                 <p>    {data.content}</p>
                                  </div>

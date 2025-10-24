@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css"
 
 import  mobile1 from "./icons/mobile1.png"
+import logo  from "./icons/logo.png"
 export  function  Header(){
     
 
@@ -11,16 +12,21 @@ export  function  Header(){
     return (
 
 
-        <div  className="outerdive"  style={styleFor}               >
+        <div  className="boxshadow"  style={styleFor}               >
 
 
                <div  className="innerdive1"   style={ { display:"flex"  ,   justifyContent:"center"} }>
 
-                    <div>
-
-                    <h1   style={ { color:"white"}   }                     >
-                        Mybindle
-                    </h1>
+                    <div style={{display:"flex"}}>
+                    <div style={{width:"10%"}}>
+             <img  style={{width:"100%"}}src={logo}></img>
+  
+                    </div>
+                  <div style={{fontSize:"3rem" ,color:"white" , fontWeight:"bold"}}>
+                                
+                    MyBindle    
+               
+                  </div>
 
                    </div> 
                
@@ -33,18 +39,19 @@ export  function  Header(){
 
 
                  <div         style={{width:"100%"}}                      >
-                <p    style={{fontSize:"5vh" , fontStretch:"expanded" , fontWeight:"bold"}}> Stay  Connnected   </p>
-                <p        style={{fontSize:"5vh" , fontStretch:"expanded" , fontWeight:"bold"}}                                                     > Stay  Social    </p>
-                <p        style={{fontSize:"5vh" , fontStretch:"expanded" , fontWeight:"bold"}}                                                       > Stay  You!   </p>
+                <p    style={{fontSize:"3rem" , fontStretch:"expanded" , fontWeight:"bold"}}> Stay  Connnected   </p>
+                <p        style={{fontSize:"3rem" , fontStretch:"expanded" , fontWeight:"bold"}}                                                     > Stay  Social    </p>
+                <p        style={{fontSize:"3rem" , fontStretch:"expanded" , fontWeight:"bold"}}                                                       > Stay  You!   </p>
 
-                <p   style={{width:"50%"}}>A place where  where the friend grow  communities  thrive  and moments turns 
+                <p>
+                    A place where  where the friend grow  communities  thrive  and moments turns 
                    into  unforgettable experiences Whether   you'r looking to reconnnect with 
                    old friends build new relationships or share  matters most to you 
                    Mybindle is your home on the internet .
                 </p>
                 </div> 
 
-                 <button  className="boxshadow"  style={{backgroundColor:"white" , color:"red"   , width:"20vh"  , height:"5vh" , borderRadius:"1vh"   , border:"none"        }}                                      >
+                 <button  className="boxshadow"  style={{backgroundColor:"white" , color:"red"   , width:"10rem"  , height:"5vh" , borderRadius:"1vh"   , border:"none"        }}                                      >
 
                     Get started
                 </button> 

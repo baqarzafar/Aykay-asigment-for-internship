@@ -22,7 +22,7 @@ export function Content(){
                     <div      style={{display:"flex"   , justifyContent:"center"}}                              >
 
                        <div>
-                         <p     style={{fontSize:"50px" , fontStretch:"expanded" , fontWeight:"bold"}} >Features  That keep You Hooked</p>
+                         <p     style={{fontSize:"4rem" , fontStretch:"expanded" , fontWeight:"bold"}} >Features  That keep You Hooked</p>
                        </div>
                        
                     
