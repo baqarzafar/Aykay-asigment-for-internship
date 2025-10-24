@@ -7,7 +7,11 @@ import mobile6 from "./icons/mobile6.png"
 export default function BetheReasone(){
 
 
+      
 
+    const Donate = ()=>{
+        console.log("hello world")
+    }
     return(
 
         <div  style={{display:"flex" , justifyContent:"center" , width:"100%" }}  >
@@ -52,7 +56,7 @@ export default function BetheReasone(){
                  <div  style={{display:"flex" , width:"100%"   , justifyContent:"space-between" , margintop:"20%" , padding:"2%  " , borderStyle:"solid"}}>
 
                            <div  > 
-                     <button  style={{backgroundColor:"white" , color:"red"   , width:"200%"  , borderRadius:"10px" , border:"none"   , padding:"20%"        }} >
+                     <button  onClick={()=>{ Donate()}} style={{backgroundColor:"white" , color:"red"   , width:"200%"  , borderRadius:"10px" , border:"none"   , padding:"20%"        }} >
                         Donate now 
                     </button> 
 
