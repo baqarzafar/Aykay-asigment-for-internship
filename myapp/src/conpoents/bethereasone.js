@@ -53,7 +53,7 @@ export default function BetheReasone(){
 
 
                    
-                 <div  style={{display:"flex" , width:"100%"   , justifyContent:"space-between" , margintop:"20%" , padding:"2%  " , borderStyle:"solid"}}>
+                 <div  style={{display:"flex" , width:"100%"   , justifyContent:"space-between" , margintop:"20%" , padding:"2%  " }}>
 
                            <div  > 
                      <button  onClick={()=>{ Donate()}} style={{backgroundColor:"white" , color:"red"   , width:"200%"  , borderRadius:"10px" , border:"none"   , padding:"20%"        }} >
