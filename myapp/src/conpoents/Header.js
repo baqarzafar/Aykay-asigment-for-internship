@@ -22,7 +22,7 @@ export  function  Header(){
              <img  style={{width:"100%"}}src={logo}></img>
   
                     </div>
-                  <div style={{fontSize:"3rem" ,color:"white" , fontWeight:"bold"}}>
+                  <div style={{fontSize:"2rem" ,color:"white" , fontWeight:"bold"}}>
                                 
                     MyBindle    
                
