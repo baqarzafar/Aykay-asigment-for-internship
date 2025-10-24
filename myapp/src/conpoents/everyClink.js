@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css"
+import mobile2 from "./icons/mobile2.png"
 
 export default function  EveryClick(){
 
@@ -23,12 +24,12 @@ export default function  EveryClick(){
         <div  style={{display:"flex" , justifyContent :"center", marginTop:"10%"}}  >
 
 
-  <div style={{display:"flex"}} >
+  <div style={{display:"flex" , justifyContent:"space-between"}} >
     
-    <div>
+    <div  style={{width:"50%"}}    >
 
 
-        <h1>Here will item be item</h1>
+         <img  style={{width:"100%"}}  src={mobile2}   ></img>
     </div>
     
       

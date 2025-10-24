@@ -14,7 +14,7 @@ export function Content(){
 
     return(
 
-             <div   style={{backgroundColor:"#F8F7F7"}}            >
+             <div   style={{backgroundColor:"#F8F7F7" , marginTop:"10%"}}            >
 
                   <div>
 
